@@ -1,0 +1,117 @@
+(footprint "SW_SPDT "
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Switch Palanca ON-ON ON-OFF-ON 6A-125VAC 2A-250VAC ")
+	(property "Reference" "REF**"
+		(at -6 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aabc16ea-2232-4482-94fd-857a9c96d23b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at -8.5 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de81d661-502d-475c-b651-8fb9533d5863")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0334841b-f401-497e-90e1-7101ede9cffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8452386-91e1-40d7-a62e-e09f9e0598fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.5 -6.5)
+		(end 3.5 6.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "18c02d1e-6bef-4c4c-bf6d-d453205ba71d")
+	)
+	(fp_circle
+		(center -2.5 4.63)
+		(end -2 4.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6ef5cc62-2fc7-4113-b39a-af296b2fbffc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -6 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c9a4c33-f2dd-4022-b2b1-ec5ef40a5459")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 4.63)
+		(size 3 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5980ea2-4cc0-42cb-98f0-89b30b772b1b")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 3 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a3ce8aec-33b5-48d6-be81-0e1c12562f5a")
+	)
+	(pad "3" thru_hole rect
+		(at 0 -4.63)
+		(size 3 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7665f9ec-09af-4975-a2cd-5fc7b365648f")
+	)
+	(embedded_fonts no)
+)

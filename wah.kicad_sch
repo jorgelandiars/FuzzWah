@@ -2628,7 +2628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 88.9 77.7748 0)
 			(effects
 				(font
@@ -2735,73 +2735,6 @@
 			(project "test"
 				(path "/6df9a4de-ce35-4607-9a42-d3c459c15494/072d3036-f4e0-4f4e-8725-744b6c55964f"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 90.17 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b592331-fe26-4505-8b02-12f558cd1217")
-		(property "Reference" "C17"
-			(at 95.25 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 95.25 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.1352 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50114e95-36df-45bd-88de-7f3543ccd646")
-		)
-		(pin "2"
-			(uuid "bab873ec-445c-4ddf-bc75-8bb1eb2769d9")
-		)
-		(instances
-			(project "test"
-				(path "/6df9a4de-ce35-4607-9a42-d3c459c15494/072d3036-f4e0-4f4e-8725-744b6c55964f"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3110,7 +3043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D16.8mm_P11.43mm_Vishay_IHB-1"
 			(at 104.14 120.65 0)
 			(effects
 				(font
@@ -3512,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 177.8 65.0748 0)
 			(effects
 				(font
@@ -3580,7 +3513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 177.8 95.5548 0)
 			(effects
 				(font
@@ -3710,7 +3643,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50K-B"
+		(property "Value" "50K-B WAH"
 			(at 189.23 97.79 0)
 			(effects
 				(font
@@ -3719,7 +3652,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DIY_jorge:Pot Alpha 16mm"
 			(at 186.69 96.52 0)
 			(effects
 				(font
@@ -3930,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 129.54 108.2548 0)
 			(effects
 				(font
@@ -4107,6 +4040,73 @@
 			(project "test"
 				(path "/6df9a4de-ce35-4607-9a42-d3c459c15494/072d3036-f4e0-4f4e-8725-744b6c55964f"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 90.17 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3ee27e5-8e09-4ace-8458-78ecf4248f22")
+		(property "Reference" "C17"
+			(at 95.758 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 96.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 91.1352 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47188e78-a456-4725-9ab4-e4c594f6839d")
+		)
+		(pin "2"
+			(uuid "bd6c55e8-4301-4ae5-8aa7-28f9d27a3a93")
+		)
+		(instances
+			(project "FuzzWah"
+				(path "/6df9a4de-ce35-4607-9a42-d3c459c15494/072d3036-f4e0-4f4e-8725-744b6c55964f"
+					(reference "C17")
 					(unit 1)
 				)
 			)
