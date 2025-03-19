@@ -1,4 +1,4 @@
-24740832328517643
+24742575489672511
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55245,6 +55245,13 @@ Switch Palanca DPDT ON-ON ON-OFF-ON 6A-125VAC 2A-250VAC
 6
 DIY_jorge
 SW_SPDT 
+Switch Palanca ON-ON ON-OFF-ON 6A-125VAC 2A-250VAC 
+
+0
+3
+3
+DIY_jorge
+SW_SPDT_V2
 Switch Palanca ON-ON ON-OFF-ON 6A-125VAC 2A-250VAC 
 
 0

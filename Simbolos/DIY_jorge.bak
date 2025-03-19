@@ -26,8 +26,8 @@
 				)
 			)
 		)
-		(property "Footprint" "DIY_jorge:SW_DPDT"
-			(at 0 0 0)
+		(property "Footprint" "DIY_jorge:SW_SPDT"
+			(at -4.318 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 0 0 0)
+			(at 2.286 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,13 +1,14 @@
-(footprint "Pot Alpha 16mm"
+(footprint "SW_SPDT_V2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Switch Palanca ON-ON ON-OFF-ON 6A-125VAC 2A-250VAC ")
 	(property "Reference" "REF**"
-		(at -5.5 4 0)
+		(at -6 5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c87fd1f7-a863-4b2c-9bad-7345d77255d3")
+		(uuid "aabc16ea-2232-4482-94fd-857a9c96d23b")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Pot Alpha 16mm"
-		(at -4.5 6 0)
+	(property "Value" "SW_SPDT"
+		(at -8.5 7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "24196d41-7fc5-4b2d-8d69-41c389e09788")
+		(uuid "de81d661-502d-475c-b651-8fb9533d5863")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +29,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -4.5 4.5 0)
+		(at -3 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7a6e160-9858-42dc-aea0-c74726889a94")
+		(uuid "0334841b-f401-497e-90e1-7101ede9cffd")
 		(effects
 			(font
 				(size 1 1)
@@ -41,11 +42,11 @@
 		)
 	)
 	(property "Description" ""
-		(at -4.5 4.5 0)
+		(at -3 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "70a3baeb-2df8-485d-84af-82a1e80728e2")
+		(uuid "e8452386-91e1-40d7-a62e-e09f9e0598fc")
 		(effects
 			(font
 				(size 1 1)
@@ -55,32 +56,32 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -7.5 -2)
-		(end 7.5 2)
+		(start -3.5 -6.5)
+		(end 3.5 6.5)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "dce8e7b9-f44c-423a-80bc-2a32173ba21a")
+		(uuid "18c02d1e-6bef-4c4c-bf6d-d453205ba71d")
 	)
 	(fp_circle
-		(center 0 -16)
-		(end 8.5 -16)
+		(center -2.5 4.63)
+		(end -2 4.63)
 		(stroke
-			(width 0.25)
+			(width 0.1)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "586cc1ad-2914-4e83-bc24-59f9b9ffce04")
+		(uuid "6ef5cc62-2fc7-4113-b39a-af296b2fbffc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.5 8 0)
+		(at -6 9 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6392c0d5-b1a5-4aaf-8439-3c07bf5b33e4")
+		(uuid "4c9a4c33-f2dd-4022-b2b1-ec5ef40a5459")
 		(effects
 			(font
 				(size 1 1)
@@ -89,39 +90,28 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -5 0)
-		(size 2 2)
-		(drill 1.2)
+		(at 0 4.63)
+		(size 3 2)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "763d3793-f54c-4d95-a372-e024e06abcc1")
+		(uuid "c5980ea2-4cc0-42cb-98f0-89b30b772b1b")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole rect
 		(at 0 0)
-		(size 2 2)
-		(drill 1.2)
+		(size 3 2)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9d8a6c7d-07cd-4409-88c7-4ef564d29153")
+		(uuid "a3ce8aec-33b5-48d6-be81-0e1c12562f5a")
 	)
-	(pad "3" thru_hole circle
-		(at 5 0)
-		(size 2 2)
-		(drill 1.2)
+	(pad "3" thru_hole rect
+		(at 0 -4.63)
+		(size 3 2)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "57a7e818-1bb8-4fa3-836f-a090e1bd3571")
+		(uuid "7665f9ec-09af-4975-a2cd-5fc7b365648f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3D/RV16AF-41.step"
-		(offset
-			(xyz 0 16 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
 )

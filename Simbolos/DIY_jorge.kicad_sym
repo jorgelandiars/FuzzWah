@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIY_jorge:SW_DPDT"
+		(property "Footprint" "DIY_jorge:SW_SPDT"
 			(at -4.318 -10.414 0)
 			(effects
 				(font

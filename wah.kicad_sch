@@ -3670,7 +3670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 186.69 96.52 0)
 			(effects
 				(font
