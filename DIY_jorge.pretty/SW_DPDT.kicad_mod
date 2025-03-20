@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Switch Palanca DPDT ON-ON ON-OFF-ON 6A-125VAC 2A-250VAC ")
 	(property "Reference" "REF**"
-		(at -6 5 0)
+		(at -8.5 5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "aabc16ea-2232-4482-94fd-857a9c96d23b")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -3 -2.5 0)
+		(at -5.5 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at -3 -2.5 0)
+		(at -5.5 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,9 +55,19 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start 0 6.5)
+		(end 0 -6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2878d97d-f848-4eb5-9710-6be4c47207f5")
+	)
 	(fp_rect
-		(start -3.5 -6.5)
-		(end 8.5 6.5)
+		(start -6 -6.5)
+		(end 6 6.5)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -67,8 +77,8 @@
 		(uuid "18c02d1e-6bef-4c4c-bf6d-d453205ba71d")
 	)
 	(fp_circle
-		(center -2.5 4.63)
-		(end -2 4.63)
+		(center -5 4.63)
+		(end -4.5 4.63)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -90,7 +100,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at 0 4.63)
+		(at -2.4 4.63)
 		(size 3 2)
 		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
@@ -98,7 +108,7 @@
 		(uuid "c5980ea2-4cc0-42cb-98f0-89b30b772b1b")
 	)
 	(pad "2" thru_hole rect
-		(at 0 0)
+		(at -2.4 0)
 		(size 3 2)
 		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
@@ -106,7 +116,7 @@
 		(uuid "a3ce8aec-33b5-48d6-be81-0e1c12562f5a")
 	)
 	(pad "3" thru_hole rect
-		(at 0 -4.63)
+		(at -2.4 -4.63)
 		(size 3 2)
 		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
@@ -114,7 +124,7 @@
 		(uuid "7665f9ec-09af-4975-a2cd-5fc7b365648f")
 	)
 	(pad "4" thru_hole rect
-		(at 5 4.63)
+		(at 2.4 4.63)
 		(size 3 2)
 		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
@@ -122,7 +132,7 @@
 		(uuid "d507dac6-11fc-45ee-9305-200b36c841ce")
 	)
 	(pad "5" thru_hole rect
-		(at 5 0)
+		(at 2.4 0)
 		(size 3 2)
 		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
@@ -130,7 +140,7 @@
 		(uuid "86304dd6-a781-45a7-9ea5-d232f55d9fa7")
 	)
 	(pad "6" thru_hole rect
-		(at 5 -4.63)
+		(at 2.4 -4.63)
 		(size 3 2)
 		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
@@ -138,4 +148,15 @@
 		(uuid "72c27046-60f0-4b7e-bdad-d6becc24f1ae")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/6mm DPDT Mini Toggle Switch.step"
+		(offset
+			(xyz 0 0 10.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )

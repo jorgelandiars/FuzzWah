@@ -3248,7 +3248,7 @@
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 74.93 59.69 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3319,7 +3319,7 @@
 			(project ""
 				(path "/6df9a4de-ce35-4607-9a42-d3c459c15494/d2a74948-ce64-4c01-a7b1-402e183435e4"
 					(reference "SW2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -3838,7 +3838,7 @@
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 121.92 59.69 0)
 		(mirror y)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3909,7 +3909,7 @@
 			(project "FuzzWah"
 				(path "/6df9a4de-ce35-4607-9a42-d3c459c15494/d2a74948-ce64-4c01-a7b1-402e183435e4"
 					(reference "SW2")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)

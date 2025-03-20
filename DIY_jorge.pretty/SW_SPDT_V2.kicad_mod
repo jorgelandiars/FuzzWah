@@ -114,4 +114,15 @@
 		(uuid "7665f9ec-09af-4975-a2cd-5fc7b365648f")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/6mm SPDT Mini Toggle Switch.step"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )

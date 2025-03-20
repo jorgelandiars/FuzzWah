@@ -3365,7 +3365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "DIY_jorge:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 220.98 88.9 0)
 			(effects
 				(font
@@ -4263,7 +4263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "DIY_jorge:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 208.28 88.9 0)
 			(effects
 				(font
