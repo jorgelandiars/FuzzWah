@@ -3204,7 +3204,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 72.39 180)
+		(at 208.28 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3218,7 +3218,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0R"
@@ -3227,11 +3227,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 210.058 72.39 90)
+			(at 206.502 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -58,7 +58,7 @@
 		(start -7.5 -2)
 		(end 7.5 2)
 		(stroke
-			(width 0.25)
+			(width 0.2)
 			(type solid)
 		)
 		(fill no)
@@ -80,7 +80,7 @@
 		(center 0 -16)
 		(end 8.5 -16)
 		(stroke
-			(width 0.25)
+			(width 0.2)
 			(type solid)
 		)
 		(fill no)

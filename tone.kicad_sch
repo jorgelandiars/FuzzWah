@@ -2010,7 +2010,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 93.98 0)
+		(at 97.79 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2019,25 +2019,25 @@
 		(fields_autoplaced yes)
 		(uuid "373c3d16-d929-46cc-8428-89234d179d86")
 		(property "Reference" "R24"
-			(at 100.33 92.71 0)
+			(at 100.33 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "47K"
-			(at 100.33 95.25 0)
+			(at 100.33 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 96.012 93.98 90)
+			(at 99.568 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)

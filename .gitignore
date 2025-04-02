@@ -1,5 +1,0 @@
-*.backup
-*.autosave
-*.net
-*.plt
-__pycache__/

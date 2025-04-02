@@ -3043,7 +3043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D16.8mm_P11.43mm_Vishay_IHB-1"
+		(property "Footprint" "Inductor_THT:L_Radial_D7.2mm_P3.00mm_Murata_1700"
 			(at 104.14 120.65 0)
 			(effects
 				(font
@@ -3421,13 +3421,13 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.99 66.04 90)
+		(at 173.99 66.04 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f9efbaf-4e7d-4c0c-987c-705694c89c27")
 		(property "Reference" "C19"
 			(at 173.99 58.42 90)
@@ -3446,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
-			(at 177.8 65.0748 0)
+			(at 170.18 65.0748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
