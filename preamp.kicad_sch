@@ -2588,7 +2588,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 116.84 180)
+		(at 194.31 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2597,25 +2597,25 @@
 		(fields_autoplaced yes)
 		(uuid "8fb512f8-8108-4f1f-9bbf-df5eefc20035")
 		(property "Reference" "R9"
-			(at 196.85 115.57 0)
+			(at 196.85 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "47K"
-			(at 196.85 118.11 0)
+			(at 196.85 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 196.088 116.84 90)
+			(at 192.532 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
